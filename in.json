@@ -2,6 +2,6 @@
   { "name" : "Paris" },
   { "name" : "London" },
   { "name" : "Cake" },
-  { "name" : "WrongWalue" },
+  { "name" : "TestNonExistingThing" },
   { "name" : "Lviv" }
 ]
