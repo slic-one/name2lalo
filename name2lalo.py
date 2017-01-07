@@ -7,7 +7,6 @@ res_data = []
 
 
 class LaLoHTMLParser(HTMLParser.HTMLParser):
-    """ Custom HTMLParser class for handling only specific data """
     def handle_starttag(self, tag, attr):
         global is_coordinates
         if attr == [('class', 'latitude')] or attr == [('class', 'longitude')]:
